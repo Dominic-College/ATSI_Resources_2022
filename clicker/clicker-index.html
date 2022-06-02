@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Clicker</title>
+        <link href="Clicker.css" rel="stylesheet" type="text/css" />
+        <script src="Clicker.js"></script>
+    </head>
+    <body>
+		<div id="info">
+			<h1 id="balance">You have $0</h1>
+			<img id="clickme" src="hot.png" alt="Click to gain cash" onclick="cum_clicked('balance')">
+		</div>
+		<div id="upgrades">
+			<button class="button" onclick="upgradeClicker('cursors')">Cursor<br><div id="cursors">Owned: 0<br>Price: $10</div></button>
+			<button class="button" onclick="upgradeClicker('grandmas')">Grandma<br><div id="grandmas">Owned: 0<br>Price: $250</div></button>
+			<button class="button" onclick="upgradeClicker('farms')">Farm<br><div id="farms">Owned: 0<br>Price: $5,000</div></button>
+			<button class="button" onclick="upgradeClicker('mines')">Mine<br><div id="mines">Owned: 0<br>Price: $25,000</div></button>
+			<button class="button" onclick="upgradeClicker('factories')">Factory<br><div id="factories">Owned: 0<br>Price: $100,000</div></button>
+			<button class="button" onclick="upgradeClicker('banks')">Bank<br><div id="banks">Owned: 0<br>Price: $250,000</div></button>
+		</div>
+    </body>
+</html>
