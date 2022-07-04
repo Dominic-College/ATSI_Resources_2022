@@ -16,13 +16,40 @@ p {
 	font-size: 1.2em;
 }
 
+.button {
+	padding: 7px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: #89a9e2;
+	border-radius: 20px;
+	font-weight: bold;
+	font-family: "Calibri Light", Verdana, sans-serif;
+	border: 1px solid white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button:hover {
+	border: 1.5px solid white;
+	filter: opacity(90%);
+}
+
 .heading {
 	font-family: trajan-pro-3, serif;
 	font-weight: 600;
 	font-style: normal; 
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-shadow: 3px 3px 8px #000000;
+}
+
+.heading-main {
+	font-size: 2em;
+}
+
+.paragraph-main {
+	max-width: 60%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .footer {
@@ -50,8 +77,8 @@ p {
 }
 
 .splash-article h1 {
-  margin-bottom: 5px;
-  text-align: center;
+	margin-bottom: 5px;
+	text-align: center;
 }
 
 .content-left {
