@@ -1,113 +1,79 @@
+@charset "utf-8";
 @import url(https://use.typekit.net/efj7gzu.css);
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
 
-:root {
-	--gold: #a2863d;
-}
-
+/* CSS Document */
 body {
-	color: white;
 	background-color: #1e345d;
-	margin: 0 auto;
+	margin: 0;
+	text-align: center;-
 }
 
 p {
+	font-family: "Calibri Light", Verdana, sans-serif;
+	color: white;
+	font-weight: 100;
+	font-style: normal;
 	font-size: 1.2em;
 }
 
-img {
-	display: flex;
-	flex-direction: column;
-	max-width: 35%;
-	min-width: 10%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.title {
-	font-size: 3em;
-	text-align: center;
+.heading {
+	font-family: trajan-pro-3, serif;
+	font-weight: 600;
+	font-style: normal; 
+	color: white;
+	font-size: 2em;
 	text-shadow: 3px 3px 8px #000000;
-	margin-top: 20px;
-}
-
-.quote {
-	font-family: 'Patrick Hand', cursive;
-	margin-bottom: 30px;
-	text-align: center;
-	margin-top: 8px;
-	font-size: 1.5em;
-	color: #89a9e2;
-	font-weight: bold;
-	text-shadow: 3px 3px 8px #000000;
-}
-
-h1 {
-	font-size: 1.6em;
-	font-family: Trajan Pro 3;
-	color: #a2863d;
-	margin: 15px;
-	text-shadow: 3px 3px 8px #000000;
-}
-
-.info {
-	text-align: center;
-	font-family: adobe-garamond-pro;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 50px;
-}
-
-.prd {
-	white-space: nowrap;
-	text-align: center;
-	font-size: 1em;
-}
-
-.red {
-	color: #f5333f;
-}
-
-.blue {
-	color: #2450ff;
-}
-
-.yellow {
-	 color: #ffdd00;
-}
-
-.green {
-	color: #76bc21;
-}
-
-.gold {
-	color: var(--gold)
-}
-
-.small-text {
-	font-size: 0.7em;
-	font-weight: normal;
-	padding-top: 4px;
 }
 
 .footer {
 	text-align: center;
-    font-family: skippy-sharp, sans-serif;
+  	font-family: skippy-sharp, sans-serif;
 	color: #a2863d;
 	text-shadow: 3px 3px 8px #000000;
 	margin-bottom: 50px;
 }
 
-/* CONTENT POSITIONING */
-
-.container {
-	background-color: red;
+.splash-content {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: column;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.container > img {
-	padding: 10px 0 10px 40px;
-	min-width: 400px;
+.splash-article {
+	display: block;
+	content: "";
+	clear: none;
+	margin: 20px;
+	margin-bottom: 60px;
+}
+
+.splash-article h1 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.content-left {
+	float: left;
+	padding-right: 40px;
+}
+
+.content-right {
+	float: right;
+	padding-left: 40px;
+}
+
+.text-content {
+	display: flow-root;
+	min-width: 300px;
+}
+
+.image-left {
+	width: 400px;
+	height: auto;
+}
+
+.half-screen {
+	max-width: 46%;
 }
