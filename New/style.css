@@ -165,7 +165,7 @@ iframe {
 
 .content-left {
 	float: left;
-	margin: 0 auto;x
+	padding-right: 40px;
 }
 
 .text-content {
