@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import url(https://use.typekit.net/efj7gzu.css);
+
+/* CSS Document */
+body {
+	background-color: #1e345d;
+	margin: 0;
+	text-align: center;-
+}
+
+p {
+	font-family: "Calibri Light", Verdana, sans-serif;
+	color: white;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+.button {
+	padding: 7px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: #89a9e2;
+	border-radius: 20px;
+	font-weight: bold;
+	font-family: "Calibri Light", Verdana, sans-serif;
+	border: 1px solid white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button:hover {
+	border: 1.5px solid white;
+	filter: opacity(90%);
+}
+
+.heading {
+	font-family: trajan-pro-3, serif;
+	font-weight: 600;
+	font-style: normal; 
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 8px #000000;
+}
+
+.heading-main {
+	font-size: 2em;
+}
+
+.paragraph-main {
+	max-width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer {
+	text-align: center;
+  	font-family: skippy-sharp, sans-serif;
+	color: #a2863d;
+	text-shadow: 3px 3px 8px #000000;
+	margin-bottom: 50px;
+}
+
+.splash-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.splash-article {
+	display: block;
+	content: "";
+	clear: none;
+	margin: 20px;
+	margin-bottom: 60px;
+}
+
+.splash-article h1 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.content-left {
+	float: left;
+	padding-right: 40px;
+}
+
+.content-right {
+	float: right;
+	padding-left: 40px;
+}
+
+.text-content {
+	display: flow-root;
+	min-width: 300px;
+}
+
+.image-left {
+	width: 400px;
+	height: auto;
+}
+
+.half-screen {
+	max-width: 46%;
+}
