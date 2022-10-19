@@ -5,7 +5,7 @@
 body {
 	background-color: #1e345d;
 	margin: 0;
-	text-align: center;-
+	text-align: center;
 }
 
 p {
@@ -14,6 +14,10 @@ p {
 	font-weight: 100;
 	font-style: normal;
 	font-size: 1.2em;
+}
+
+.gold {
+	color: #a2863d;
 }
 
 .button {
@@ -37,7 +41,7 @@ p {
 	font-family: trajan-pro-3, serif;
 	font-weight: 600;
 	font-style: normal; 
-	color: white;
+	color: #a2863d;
 	font-size: 1.5em;
 	text-shadow: 3px 3px 8px #000000;
 }
@@ -47,14 +51,14 @@ p {
 }
 
 .paragraph-main {
-	max-width: 60%;
+	max-width: 80%;
 	text-align: center;
 	margin: 0 auto;
 }
 
 .footer {
 	text-align: center;
-  	font-family: skippy-sharp, sans-serif;
+  font-family: skippy-sharp, sans-serif;
 	color: #a2863d;
 	text-shadow: 3px 3px 8px #000000;
 	margin-bottom: 50px;
@@ -102,5 +106,9 @@ p {
 }
 
 .half-screen {
-	max-width: 46%;
+	max-width: 45%;
+}
+
+#A5 > .text-content {
+	min-width: 100px;
 }
